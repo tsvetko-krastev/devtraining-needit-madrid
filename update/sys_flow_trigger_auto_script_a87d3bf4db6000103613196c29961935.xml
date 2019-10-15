@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_auto_script">
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Trigger:278cb3f4db6000103613196c29961948</name>
+        <run_as display_value="System2 Administrator2">f5b4aa3adb8000103613196c299619f3</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>5</run_dayofweek>
+        <run_period/>
+        <run_start>2019-10-15 09:52:37</run_start>
+        <run_time>1970-01-02 07:00:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('278cb3f4db6000103613196c29961948');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>tsvetko.krastev@doitwise.com</sys_created_by>
+        <sys_created_on>2019-10-15 09:52:37</sys_created_on>
+        <sys_id>a87d3bf4db6000103613196c29961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trigger:278cb3f4db6000103613196c29961948</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_flow_trigger_auto_script_a87d3bf4db6000103613196c29961935</sys_update_name>
+        <sys_updated_by>tsvetko.krastev@doitwise.com</sys_updated_by>
+        <sys_updated_on>2019-10-15 09:52:37</sys_updated_on>
+        <trigger display_value="">278cb3f4db6000103613196c29961948</trigger>
+        <upgrade_safe>false</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+</record_update>
